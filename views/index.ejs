@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <div id="editPage">
+        <button class="Edit-Txt-Buttone" onclick="document.execCommand('bold');">toggle bold</button>
+        <button class="Edit-Txt-Buttone" onclick="document.execCommand('italic');">toggle italic</button>
+        <button class="Edit-Txt-Buttone" onclick="document.execCommand('underline');">toggle underline</button>
+        <br>
+        <br>
+        <div>
+            <label class="file" for="myFile">Escolher imagem</label>
+            <input id="myFile" type="file" name="file" >
+            <button class="file" onclick="printPath()">INSERIR IMAGEM</button>
+        </div><br>
+        <button onclick="foo()">GET SELECTION</button>
+        <div id="selectColor">
+            <button class="color-selector color1" onclick="document.execCommand('foreColor', false, 'rgb(255,255,255)');"></button>
+            <button class="color-selector color2" onclick="document.execCommand('foreColor', false, 'rgb(100, 149, 237)');"></button>
+            <button class="color-selector color3" onclick="document.execCommand('foreColor', false, 'rgb(231, 76, 60 )');"></button>
+            <button class="color-selector color4" onclick="document.execCommand('foreColor', false, 'rgb(142, 68, 173 )');"></button>
+            <button class="color-selector color5" onclick="document.execCommand('foreColor', false, '#FF69B4');"></button>
+            <button class="color-selector color6" onclick="document.execCommand('foreColor', false, 'rgb(247, 220, 111 )');"></button>
+            <button class="color-selector color7" onclick="document.execCommand('foreColor', false, 'rgb(46, 204, 113 )');"></button>
+            <button class="color-selector color8" onclick="document.execCommand('foreColor', false, '#4D5656 ');"></button>
+            <button class="color-selector color9" onclick="document.execCommand('foreColor', false, '#000');"></button>
+        </div>
+      
+            <BUTTON onclick="Modal()" class="finishButton">Finish</BUTTON>
+       
+    </div>
+
+
+    <br><br><br>
+    <div class="titulo">
+         <textarea id="MainTitle" placeholder="DIGITE O TITULO AQUI"></textarea>
+    </div>
+    <div id="editor" contenteditable="true">DIGITE O CORPO DO POST AQUI...</div>
+
+
+
+    <!--
+        <form id="insertImg" action="" method="post" enctype="multipart/form-data">
+            <input id="File" type="file" name="imgFile">
+            <input type="submit" id="submit" name="submit" value="Upload" />
+        </form>
+
+        <div id="status">
+
+        </div>
+
+    
+    -->
+
+
+        <div id="sendForm" class="confirm-modal">
+            <button onclick="sendForm()" class="yes-btn">YES</button>
+            <button onclick="Modal()" class="no-btn">NO</button>
+        </div>
+
+
+</body>
+<script src="/js/script.js"></script>
+</html>
+

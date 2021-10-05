@@ -1,0 +1,129 @@
+#editor{
+            width: 750px;
+            height: 750px;
+            margin: auto;
+            outline: none;
+            border: 0.5px solid black;
+            box-shadow: 5px 4px 20px 3px;
+            overflow-y: auto;
+            font-size: 22px;
+        }
+        .Edit-Txt-Buttone{
+            background-color: blue;
+            border-radius: 10%;
+            border: 0;
+            padding: 10px;
+        }
+        .color-selector{
+            padding: 10px;
+            background-color: aqua;
+            border: none;
+            margin: 2px;
+        }
+        #selectColor{
+            width: 100px;
+        }
+
+            
+
+        .color1{
+            background-color:rgb(255,255,255) ;
+            border: 1px solid black;
+        }
+        .color2{
+            background-color:rgb(100, 149, 237) ;
+        }
+        .color3{
+            background-color:rgb(231, 76, 60 ) ;
+        }
+        .color4{
+            background-color:rgb(142, 68, 173 ) ;
+        }
+        .color5{
+            background-color:#FF69B4 ;
+        }
+        .color6{
+            background-color:rgb(247, 220, 111 ) ;
+        }
+        .color7{
+            background-color:rgb(46, 204, 113 ) ;
+        }
+        .color8{
+            background-color:#4D5656 ;
+        }.color9{
+            background-color:#000 ;
+        }
+        .header{
+            text-align: center;
+            font-size: 42px;
+        }
+        .imgInserted{
+            text-align: center;
+        }
+        .titulo{
+            width: 800px;
+            height: 55px;
+            margin: 30px auto;
+            outline: none;
+            border: 0.5px solid black;
+            overflow: hidden;
+            font-size: 40px;
+        }
+        textarea{
+            width: 800px;
+            height: 55px;
+            overflow: hidden;
+            font-size: 35px;
+            outline: none;
+        }
+        #editPage{
+            position: absolute;
+            top: 300px;
+            border: 2px solid black;
+            background-color: rgb(243, 236, 236);
+            padding: 10px;
+        }
+        #myFile{
+            display: none;
+        }
+        .file{
+            padding: 20px 10px;
+            background-color: #333;
+            color: #FFF;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            cursor: pointer;
+            border: none;
+        }
+        .finishButton{
+            border: none;
+            outline: none;
+            background-color: rgb(58, 253, 58);
+            padding: 5px;
+            margin: 50px 0 10px 0;
+            height: 40px;
+            width: 300px;
+        }
+        .confirm-modal{
+            position: absolute;
+            top: 679px;
+            left: 12px;
+            width: 300px;
+            padding: 5px;
+            border: 3px solid black;
+            background-color: rgb(83, 182, 182);
+            text-align: center;
+            display: none;
+        }
+        .yes-btn{
+            border: none;
+            outline: none;
+            background-color: rgb(12, 214, 12);
+        }
+        .no-btn{
+            border: none;
+            outline: none;
+            background-color: rgb(231, 35, 35);
+        }
