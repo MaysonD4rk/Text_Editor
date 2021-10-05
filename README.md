@@ -1,2 +1,2 @@
 # Text_Editor
- m editor de texto feito com node js
+ um editor de texto feito com node js
